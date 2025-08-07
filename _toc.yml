@@ -9,7 +9,8 @@ parts:
   - caption: Training and Pipelines
     chapters:
       - file: content/01-ml-development
-      - file: content/02-training-operationalization
+      - file: content/02-training-operationalization.ipynb
+        title: Training Operationalization (Interactive)
       - file: content/03-continuous-training
   - caption: Deployment and Serving
     chapters:
