@@ -4,7 +4,7 @@ Training operationalization is the process of `building and testing a repeatable
 
 ```{figure} ../artifacts/training_operationalization_process.png
 ---
-width: 80%
+width: 100%
 align: center
 name: training-operationalization-fig
 ---
