@@ -1,6 +1,15 @@
 # Training Operationalization
 
-Training operationalization is the process of building and testing a repeatable ML training pipeline and then deploying it to a target execution environment.
+Training operationalization is the process of `building and testing a repeatable ML training pipeline` and then `deploying it to a target execution environment.`
+
+```{figure} ../artifacts/training_operationalization_process.png
+---
+width: 80%
+align: center
+name: training-operationalization-fig
+---
+The training operationalization process showing the complete CI/CD workflow for ML pipelines
+```
 
 ## CI/CD Pipeline for Training
 
@@ -53,6 +62,8 @@ For MLOps, ML engineers should be able to use configurations to deploy the ML pi
   ::::
 
 A pipeline typically goes through a series of testing and staging environments before it is released to production. The number of testing and staging environments varies depending on standards established in the organization.
+
+As illustrated in {numref}`training-operationalization-fig`, this process ensures quality and reliability through systematic validation at each stage.
 
 ## Continuous Integration (CI) Deep Dive
 
