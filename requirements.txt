@@ -1,0 +1,4 @@
+jupyter-book>=0.15.1
+sphinxcontrib-mermaid>=0.8.1
+myst-parser>=0.18.0
+sphinx>=5.0.0

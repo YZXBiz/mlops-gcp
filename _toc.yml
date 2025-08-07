@@ -1,0 +1,14 @@
+# Table of Contents
+
+- file: intro
+- part: MLOps Processes
+  chapters:
+    - file: content/01-ml-development
+    - file: content/02-training-operationalization
+    - file: content/03-continuous-training
+    - file: content/04-model-deployment
+    - file: content/05-prediction-serving
+    - file: content/06-continuous-monitoring
+    - file: content/07-data-and-model-management
+    - file: content/08-dataset-and-feature-management
+    - file: content/09-model-management
