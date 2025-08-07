@@ -30,8 +30,18 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_css:
+    - _static/custom.css
 
 # Enable Mermaid diagrams
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
+  config:
+    exclude_patterns:
+      - .venv/**
+      - _build/**
+      - node_modules/**
+      - .ipynb_checkpoints/**
+
+only_build_toc_files: true

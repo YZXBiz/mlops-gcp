@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Jupyter Book / Sphinx
+_build/
+.jupyter_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Misc
+*.log
+
+# Project-specific
+mlops_gcp.egg-info/ 

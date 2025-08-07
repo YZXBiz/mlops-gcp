@@ -1,0 +1,26 @@
+/* Constrain Mermaid diagrams and make them responsive */
+.mermaid {
+  max-width: 100%;
+  overflow: auto;
+}
+
+/* Target SVGs inside Mermaid blocks */
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Cap overly tall diagrams and allow scrolling */
+.mermaid {
+  max-height: 70vh;
+}
+
+/* Improve code and admonition readability */
+.admonition, .admonition-title {
+  line-height: 1.4;
+}
+
+/* Slightly reduce base font-size for Mermaid labels to fit better */
+.mermaid text {
+  font-size: 12px !important;
+} 
