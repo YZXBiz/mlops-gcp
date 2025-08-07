@@ -4,6 +4,8 @@ root: intro
 chapters:
   - file: content/01-ml-development
   - file: content/02-training-operationalization
+  - file: content/02-training-operationalization.ipynb
+    title: Training Operationalization (Interactive)
   - file: content/03-continuous-training
   - file: content/04-model-deployment
   - file: content/05-prediction-serving
