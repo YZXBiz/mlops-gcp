@@ -11,10 +11,10 @@ parts:
       - file: content/01-ml-development
       - file: content/02-training-operationalization.ipynb
         title: Training Operationalization (Interactive)
-      - file: content/03-continuous-training
+      - file: content/03-continuous-training.ipynb
   - caption: Deployment and Serving
     chapters:
-      - file: content/04-model-deployment
+      - file: content/04-model-deployment.ipynb
       - file: content/05-prediction-serving
       - file: content/06-continuous-monitoring
   - caption: Management and Governance
